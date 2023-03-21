@@ -18,14 +18,16 @@ const formElements = event.currentTarget.elements;
         password,
         subscription
     }
-console.log(formData);
+
 
 if(mail.value || password.value) {
     alert("Email fields shoulds be empty");
     } else {
         alert("This form has been successfuly submitted!");
+        console.log(formData);
          };
     console.log(`This form has a username of ${mail} and password of ${password}`);
+    
 };
   
 
