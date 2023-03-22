@@ -3,7 +3,7 @@ const refs = {
     spanEl:  document.getElementById('text')
 };
 
-function onFontControllerInput () {
+function onFontControllerInput (event) {
 refs.spanEl.style.fontSize =  refs.inputEl.value + 'px';
 };
 
